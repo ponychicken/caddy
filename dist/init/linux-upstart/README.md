@@ -9,5 +9,6 @@ Short recap:
 
 * Download Caddy in `/usr/bin/caddy` and execute `sudo setcap cap_net_bind_service=+ep /usr/bin/caddy`.
 * Save the upstart config file in `/etc/init/caddy.conf`.
+* Modify your email adress in `/etc/init/caddy.conf`.
 * Create a Caddyfile in `/etc/caddy/Caddyfile`.
 * Now you can use `sudo service caddy start|stop|restart`.
